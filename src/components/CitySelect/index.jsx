@@ -1,5 +1,5 @@
 import "./styles.css";
-const data = ["Milano", "Roma", "Palermo", "Trieste", "Domodossola"];
+const data = ["Milano", "Roma", "Trieste", "Domodossola", "Napoli", "Salerno", "Palermo"];
 
 export const CitySelect = ({notify}) => {
 
@@ -11,7 +11,8 @@ export const CitySelect = ({notify}) => {
     return(
         <div className="citySelectorWrapper">
             <select onChange={cityChange}>
-                {data.map((city, index) => (<option>{city}</option>))}
+                <option disabled>Seleziona una città</option>
+                {data.map((city, index) => (<option id={index}>{city}</option>))}
             </select>
         </div>
     );
