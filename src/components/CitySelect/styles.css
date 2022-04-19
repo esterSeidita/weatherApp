@@ -1,0 +1,7 @@
+.citySelectorWrapper select{
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: 10px solid white;
+    text-align: center;
+}
