@@ -34,7 +34,7 @@ function App() {
         <CityWeather img={img} city={city} weather={weather} temp={temp} />
       </div>
       <p className="attribute">
-          Credits of Ester Seidita <br/>for Edgemony Coding Bootcamp
+          Credits of Ester Seidita <br/>Edgemony Coding Bootcamp
       </p>
     </div>
   );
